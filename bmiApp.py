@@ -4,7 +4,7 @@ st.markdown("#red[ ค่านวณคาดัชนีมวลกาย BMI
 st.write("กรอกข้อมูลน้ำหนักและส่วนสูงของคุณ เพื่อเช็กสุขภาพเบื้องต้น")
 
 
-weight st.number_input("กรอกน่าหนักของคุณ (กิโลกรัม):", min_value-1.0)
+weight = st.number_input("กรอกน่าหนักของคุณ (กิโลกรัม):", min_value-1.0)
 height_cm = st.number_input("กรอกส่วนสูงของคุณ (เซนติเมตร) :", min_value=1.0)
 
 
